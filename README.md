@@ -1,2 +1,0 @@
-# NoFearProjectOne
-IHC proyect
