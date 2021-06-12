@@ -9,15 +9,21 @@ body {
 	line-height: 30px;
 	color: #000000;
 }
+
 @font-face {
-	font-family: 'Roboto';
-	src: url('../fonts/LANENAR_-webfont.eot');
-	src: url('../fonts/LANENAR_-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/LANENAR_-webfont.woff') format('woff'), url('../fonts/LANENAR_-webfont.ttf') format('truetype'), url('../fonts/LANENAR_-webfont.svg#lane_-_narrowregular') format('svg');
+	font-family: 'RobotoM';
+	src: url('../fonts/Roboto-Bold.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'RobotoL';
+	src: url('../fonts/Roboto-Light.ttf');
 	font-weight: normal;
 	font-style: normal;
 }
 h1, p {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'RobotoM', sans-serif;
 	font-weight: 700;
 }
 h2, h3 {
@@ -89,27 +95,33 @@ img:hover {
 	background: url('../images/SeñorBuscandoTaller2.jpeg')no-repeat;
 	background-size: cover;
 	background-position: center;
+	opacity:0.8;
 	min-height: 600px;
 	padding-top: 220px;
 	padding-bottom: 100px;
 	
 }
 #home h1 {
-	color: #d64161;
+	color: #000000;
 	font-weight: 300;
 	padding-bottom: 10px;
-
+	font-size: 80px
 }
 #home h2 {
 	line-height: 10px;
-
+	font-size: 50px;
 }
-
+#home p{
+	color:#000000;
+	font-size: 20px;
+	font-family:'RobotoL', sans-serif;
+}
 #home .btn {
 	background: transparent;
 	border: 2px solid #000000;
 	border-radius: 3;
-	color: #d64161;
+	color: #080808;
+	font-size: 16px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	padding-top: 14px;	
@@ -118,12 +130,12 @@ img:hover {
 	margin-top: 20px;
 }
 #home .btn:hover {
-	background: #d64161;
+	background: #bd4343;
 	border-color: transparent;
 	color: #fff;
 }
 .containerHome{
-	display: flex;
+	
 	width: 100%;
 	justify-content:center;
 	align-items:center;
@@ -135,13 +147,13 @@ img:hover {
 	padding-bottom: 80px;
 }
 #service h2 {
-	border-left: 2px solid #d64161;
+	border-left: 2px solid #bd4343;
 	display: inline-block;
 	padding: 20px;
 }
 #service .fa {
-	border-top: 4px solid #d64161;
-	border-bottom: 4px solid #dc5034;
+	border-top: 4px solid #bd4343;
+	border-bottom: 4px solid #bd4343;
 	border-radius: 50%;
 	font-size: 26px;
 	width: 90px;
@@ -158,7 +170,7 @@ img:hover {
 	padding-bottom: 80px;
 }
 #about h2 {
-	border-right: 2px solid #d64161;
+	border-right: 2px solid #bd4343;
 	display: inline-block;
 	padding: 10px 20px 10px 10px;
 }
@@ -179,7 +191,7 @@ img:hover {
 	padding-bottom: 100px;
 }
 #team h2 {
-	border-left: 2px solid #d64161;
+	border-left: 2px solid #bd4343;
 	display: inline-block;
 	padding: 10px 10px 10px 20px;
 }
@@ -198,7 +210,7 @@ img:hover {
 	padding-bottom: 60px;
 }
 #portfolio h2 {
-	border-right: 2px solid #d64161;
+	border-right: 2px solid #bd4343;
 	display: inline-block;
 	padding: 10px 20px 10px 10px;
 }
@@ -227,7 +239,7 @@ img:hover {
 	-ms-transition: all 0.4s ease-in-out;
 }
 .filter-wrapper li a.selected, .filter-wrapper li a:focus, .filter-wrapper li a:hover {
-	background: #d64161;
+	background: #bd4343;
 	border-color: transparent;
 	color: #ffffff;
 }
@@ -265,7 +277,7 @@ img:hover {
 	text-align: center;
 }
 #pricing h2 {
-	border-left: 2px solid #d64161;
+	border-left: 2px solid #bd4343;
 	display: inline-block;
 	padding: 10px 10px 10px 20px;
 }
@@ -298,7 +310,7 @@ img:hover {
 	height: 50px;
 }
 #pricing .plan .btn:hover {
-	background: #d64161;
+	background: #bd4343;
 	border-color: transparent;
 }
 
@@ -309,7 +321,7 @@ img:hover {
 	text-align: center;
 }
 #contact h2 {
-	border-right: 2px solid #d64161;
+	border-right: 2px solid #bd4343;
 	display: inline-block;
 	padding: 10px 20px 10px 10px;
 	margin-bottom: 60px;
@@ -335,7 +347,7 @@ img:hover {
 	height: 54px;
 }
 #contact input[type="submit"]:hover {
-	background: #d64161;
+	background: #bd4343;
 	border-color: transparent;
 }
 #contact p {
@@ -390,7 +402,7 @@ footer span {
 	margin-right: 10px;
 }
 .social-icons li a:hover {
-	background: #d64161;
+	background: #bd4343;
 }
 /* copyright section */
 .copyright {
@@ -400,7 +412,7 @@ footer span {
 }
 /* scrolltop section */
 .go-top {
-	background-color: #d64161;
+	background-color: #bd4343;
 	font-size: 26px;
 	bottom: 2em;
 	right: 2em;
