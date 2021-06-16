@@ -4,7 +4,8 @@ http://www.templatemo.com/free-website-templates/
 */
 
 body {
-	background: #fff;
+	background: rgb(255, 255, 255);
+	/* background-image: linear-gradient(#ffffff,#e4b4b4,#ffffff); */
 	font-family: 'Roboto', sans-serif;
 	line-height: 30px;
 	color: #000000;
@@ -28,7 +29,8 @@ h1, p {
 }
 h2, h3 {
 	font-weight: bold;
-	
+	font-family: 'RobotoM', sans-serif;
+	font-size: 2em
 }
 hr {
 	border-color: #d64161;
@@ -148,6 +150,7 @@ img:hover {
 }
 #service h2 {
 	border-left: 2px solid #bd4343;
+
 	display: inline-block;
 	padding: 20px;
 }
@@ -282,9 +285,11 @@ img:hover {
 	padding: 10px 10px 10px 20px;
 }
 #pricing .plan {
-	border: 2px solid #000000;
+	border-radius: 20px;
+	box-shadow:0 2px 8px 0 rgb(0 0 0);
 	padding: 20px 20px 40px 20px;
 	margin-top: 60px;
+	background-image: linear-gradient(#e1e2dd,#b87b7b);
 }
 #pricing .plan .plan-title {
 	border-bottom: 2px solid #000000;
@@ -292,7 +297,8 @@ img:hover {
 	margin-bottom: 20px;
 }
 #pricing .plan small, #pricing .plan ul li {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'RobotoM', sans-serif;
+	color: #313138;
 }
 #pricing .plan ul {
 	padding: 0;
@@ -304,14 +310,15 @@ img:hover {
 #pricing .plan .btn {
 	background: transparent;
 	border: 2px solid #000000;
-	border-radius: 0;
+	border-radius: 4px;
 	color: #000000;
 	width: 140px;
 	height: 50px;
 }
 #pricing .plan .btn:hover {
-	background: #bd4343;
+	background: #000000;
 	border-color: transparent;
+	color: #FFF;
 }
 
 /* contact section */
