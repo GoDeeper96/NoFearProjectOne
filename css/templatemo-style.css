@@ -5,7 +5,7 @@ http://www.templatemo.com/free-website-templates/
 
 body {
 	background: rgb(255, 255, 255);
-	/* background-image: linear-gradient(#ffffff,#e4b4b4,#ffffff); */
+	/* background-image: linear-gradient(rgb(65, 103, 153),rgb(255, 255, 255)); */
 	font-family: 'Roboto', sans-serif;
 	line-height: 30px;
 	color: #000000;
@@ -73,12 +73,16 @@ img:hover {
 	padding-right: 40px;
 	padding-left: 40px;
 	line-height: 60px;
+	font-size: 15px;
+	font-family: 'RobotoM';
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 	color: #d64161;
+	/* color:#b66a81; */
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: #d64161;
+	/* color:#b66a81; */
 	background-color: transparent;
 }
 .navbar-default .navbar-toggle {
@@ -284,12 +288,32 @@ img:hover {
 	display: inline-block;
 	padding: 10px 10px 10px 20px;
 }
-#pricing .plan {
+#pricing .plan.Gratis {
 	border-radius: 20px;
 	box-shadow:0 2px 8px 0 rgb(0 0 0);
 	padding: 20px 20px 40px 20px;
 	margin-top: 60px;
-	background-image: linear-gradient(#e1e2dd,#b87b7b);
+	background-image: linear-gradient(#f5f5f5,#ecdfdf);
+	/* background-image: linear-gradient(#e1e2dd,#b87b7b);
+	background-image: linear-gradient(#e1e2dd,#b87b7b); */
+}
+#pricing .plan.Premium {
+	border-radius: 20px;
+	box-shadow:0 2px 8px 0 rgb(0 0 0);
+	padding: 20px 20px 40px 20px;
+	margin-top: 60px;
+	background-image: linear-gradient(#e2a4a4,#acacac);
+	/* background-image: linear-gradient(#e1e2dd,#b87b7b);
+	background-image: linear-gradient(#e1e2dd,#b87b7b); */
+}
+#pricing .plan.NCNL {
+	border-radius: 20px;
+	box-shadow:0 2px 8px 0 rgb(0 0 0);
+	padding: 20px 20px 40px 20px;
+	margin-top: 60px;
+	background-image: linear-gradient(#db9898,#e63232);
+	/* background-image: linear-gradient(#e1e2dd,#b87b7b);
+	background-image: linear-gradient(#e1e2dd,#b87b7b); */
 }
 #pricing .plan .plan-title {
 	border-bottom: 2px solid #000000;
