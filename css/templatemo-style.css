@@ -321,6 +321,11 @@ img:hover {
 	/* background-image: linear-gradient(#e1e2dd,#b87b7b);
 	background-image: linear-gradient(#e1e2dd,#b87b7b); */
 }
+#pricing .plan .plan-titleInside{
+	border-top: 2px solid #000000;
+	padding: 20px 10px;
+	margin-bottom: 20px;
+}
 #pricing .plan .plan-title {
 	border-bottom: 2px solid #000000;
 	padding: 20px 10px;
