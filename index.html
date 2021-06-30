@@ -7,11 +7,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="keywords" content="">
 <meta name="description" content="">
-<!-- 
-Superfresh Template
-http://www.templatemo.com/free-website-templates/
--->
-<!-- stylesheet css -->
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -56,7 +51,12 @@ http://www.templatemo.com/free-website-templates/
                     </ul> 
        </li>
        <li><a href="#portfolio" class="smoothScroll">Foro</a></li>
-       <li><a href="#"><span class="glyphicon glyphicon-user"></span> Registrarse</a></li>
+       <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Registrarse</a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="mecanicoRegistroform.html" >Soy mecánico</a></li>
+                      <li><a href="conductorRegistroform.html">Soy conductor</a></li>
+                    </ul> 
+        </li>
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Iniciar Sesión</a></li>
       </ul>
     </div>
@@ -69,7 +69,7 @@ http://www.templatemo.com/free-website-templates/
   <div class="containerHome">
     <div class="rowHome">
         <h1>NewCarNewLife</h1>
-        <p>Disfruta de nuestros servicios de manera gratuita. </p>
+        <p><span style="color:black;font-weight:bold">Encuentra talleres mecánicos</span> en menos de 5 minutos</p>
         <a href="#service" class="btn btn-default smoothScroll">Buscar Talleres</a>
     </div>
   </div>
